@@ -2,17 +2,19 @@ import mongoose from "mongoose";
 
 const bookSchema = mongoose.Schema({
     title: {
-        name: String,
+        type: String,
         required: true
     },
     author: {
-        name: String,
+        type: String,
         required: true
     },
     publishYear: {
-        name: String,
+        type: Number,
         required: true
     }
+}, {
+    versionKey: false
 });
 
 export const Book = mongoose.model('book', bookSchema)
