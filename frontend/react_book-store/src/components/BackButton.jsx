@@ -11,4 +11,4 @@ const BackButton = ({ destination = '/' }) => {
     )
 }
 
-export default BackButton
+export default BackButton;

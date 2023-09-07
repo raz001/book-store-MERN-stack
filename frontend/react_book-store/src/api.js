@@ -1,0 +1,1 @@
+export const api = `https://plain-duck-bathing-suit.cyclic.cloud`
