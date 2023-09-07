@@ -13,7 +13,7 @@ const DeleteBook = () => {
       .delete(`http://localhost:3000/books/${id}`)
       .then((res) => {
         setLoading(false)
-        alert(res.data.msg)
+        // alert(res.data.msg)
         navigate('/')
       })
       .catch((err) => {
